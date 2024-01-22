@@ -1,0 +1,44 @@
+:root {
+  font-family: "Gilroy-Regular";
+
+  /* width */
+  --w-container: 1644px;
+
+  /* color */
+  --c-bg-header: #e3d7f1;
+  --c-text: #000;
+  --c-text-white: #ffffff;
+
+  /* font-size */
+
+  --fs-text: 25px;
+
+  /* transtion */
+
+  --tr-normal: 0.3s;
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url(../fonts/Gilroy-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url(../fonts/Gilroy-Regular.ttf);
+  font-weight: 400;
+}
+
+.container {
+  max-width: var(--w-container);
+  margin: 0 auto;
+}
+
+a {
+  transition: var(--tr-normal);
+}
+
+a:hover {
+  color: var(--c-text-white);
+}
