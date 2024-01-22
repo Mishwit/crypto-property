@@ -8,6 +8,8 @@
   --c-bg-header: #e3d7f1;
   --c-text: #000;
   --c-text-white: #ffffff;
+  --c-brand: #a790c6;
+  --c-btn-shadow: #b69bdb99;
 
   /* font-size */
 
@@ -40,5 +42,14 @@ a {
 }
 
 a:hover {
+  color: var(--c-text-white);
+}
+
+.button {
+  min-width: 260px;
+  padding: 16px 0;
+  border-radius: 20px;
+  background-color: var(--c-brand);
+  box-shadow: 0px 3px 10px 0px var(--c-btn-shadow);
   color: var(--c-text-white);
 }
