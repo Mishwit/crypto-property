@@ -66,3 +66,28 @@
   margin-bottom: 46px;
   font-size: 32px;
 }
+
+.steps {
+  padding: 40px 0 250px;
+}
+
+.step {
+  position: relative;
+}
+
+.step img {
+  position: absolute;
+  top: 30%;
+}
+
+.step span {
+  font-family: "Gilroy-SemiBold";
+}
+
+.step span:first-child {
+  font-size: 24px;
+}
+
+.step span:last-child {
+  font-size: 36px;
+}
