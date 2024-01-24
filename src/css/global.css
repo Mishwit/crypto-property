@@ -1,8 +1,10 @@
-:root {
+* {
   font-family: "Gilroy-Regular";
+}
 
+:root {
   /* width */
-  --w-container: 1644px;
+  --w-container: 1920px;
 
   /* color */
   --c-bg-header: #e3d7f1;
@@ -10,6 +12,8 @@
   --c-text-white: #ffffff;
   --c-brand: #a790c6;
   --c-btn-shadow: #b69bdb99;
+  --c-bg-token: #edf2ff;
+  --c-shadow-token: #d4e0ff;
 
   /* font-size */
 
@@ -32,8 +36,9 @@
   font-weight: 400;
 }
 
-.container {
+.content-container {
   max-width: var(--w-container);
+  padding: 0 120px;
   margin: 0 auto;
 }
 
@@ -43,6 +48,12 @@ a {
 
 a:hover {
   color: var(--c-text-white);
+}
+
+h1,
+h2 {
+  font-family: "Gilroy-SemiBold";
+  font-size: 55px;
 }
 
 .button {
