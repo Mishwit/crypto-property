@@ -114,3 +114,29 @@
   font-size: 26px;
   max-width: 844px;
 }
+
+.advantage {
+  padding-bottom: 264px;
+}
+
+.advantage h2 {
+  margin-bottom: 114px;
+  font-size: 55px;
+}
+
+.cards .card:first-child {
+  margin-bottom: 74px;
+}
+
+.advantage .card {
+  border: none;
+}
+
+.card__content {
+  gap: 58px;
+}
+
+.card__content p {
+  max-width: 445px;
+  font-size: 25px;
+}
