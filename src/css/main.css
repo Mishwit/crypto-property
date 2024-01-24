@@ -91,3 +91,26 @@
 .step span:last-child {
   font-size: 36px;
 }
+
+.about-us {
+  padding-bottom: 276px;
+}
+
+.about-us h2 {
+  margin-bottom: 32px;
+  font-size: 55px;
+}
+
+.about-us .info {
+  max-width: 970px;
+  margin-right: 140px;
+}
+
+.about-us .info h2 {
+  font-size: 40px;
+}
+
+.about-us .info p {
+  font-size: 26px;
+  max-width: 844px;
+}
